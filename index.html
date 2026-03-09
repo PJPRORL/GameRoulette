@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Roulette</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li class="rightAlign"><a href="#">Settings</a></li>
+                </ul>
+                <hr>
+            </nav>
+        </header>
+
+        <main class="main-container">
+            <!-- Hier komt jouw HTML structuur (Titel, Canvas, Resultaat, Knoppen) -->
+            <div class="title">
+                <h1>GAME ROULETTE</h1>
+                <p id="adventure">WHAT'S YOUR NEXT ADVENTURE</p>
+            </div>
+            <div class="card">
+                <div id="lootCard">
+                    <div class="card-face card-front">?</div>
+                    <div class="card-face card-back" id="winner-text">Resultaat...</div>
+                </div>
+                <!-- <div>
+                    <div class="card-face card-back" id="winner-text">Resultaat...</div>
+                </div> -->
+
+            </div>
+            <div class="winner-button">
+                <button>REVEAL GAME</button>
+            </div>
+
+        </main>
+
+        <footer class="copyright">
+            <hr>
+            <p>&copy Jeroen Piussi</p>
+        </footer>
+    </div>
+    <!-- Scripts laden: EERST de data (games.js), DAARNA de logica (main.js) -->
+    <script src="scripts/games.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
