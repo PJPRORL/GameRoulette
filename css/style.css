@@ -184,7 +184,7 @@ footer>p {
     text-shadow: 3px 3px 50px #FBBF24;
     background-image: repeating-linear-gradient(45deg, #2D1B4E 0px, #4C1D95 20px, #2D1B4E 10px, #4C1D95 20px);
     animation-name: myAnimation;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
