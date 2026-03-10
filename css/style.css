@@ -190,7 +190,7 @@ footer>p {
 
 @keyframes myAnimation {
     0% {
-        transform: translateY(-40px);
+        transform: translateY(-20px);
     }
 
     50% {
@@ -198,7 +198,7 @@ footer>p {
     }
 
     100% {
-        transform: translateY(-40px);
+        transform: translateY(-20px);
     }
 }
 
