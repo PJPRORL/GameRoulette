@@ -208,6 +208,6 @@ let ListOfGames = [
   "South Park: The Fractured But Whole"
 ];
 
-const gamesList = {
-
+const Game = {
+  name: 
 }
