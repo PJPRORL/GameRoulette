@@ -207,7 +207,3 @@ let ListOfGames = [
   "The Sims: Super Deluxe",
   "South Park: The Fractured But Whole"
 ];
-
-const Game = {
-  name: 
-}
