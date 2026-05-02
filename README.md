@@ -77,7 +77,7 @@ De klant stelt hoge eisen aan de afwerking van de twee hoofdonderdelen. Zorg dat
 
 Je JavaScript code en HTML structuur moeten het volgende kunnen:
 
-1. **Games Inladen:** Gebruik de array uit `scripts/games.js` als je bronbestand.
+1. **Games Inladen:** Gebruik de array uit `scripts/games.ts` als je bronbestand.
 2. **Interactieve Kaart:** Plaats een HTML element centraal op het scherm dat dient als de kaart (voor- én achterkant).
 3. **Onthullingsknop:** Plaats een grote, opvallende knop (gebruik de primaire accentkleur) om te "Spinnen/Onthullen".
 4. **De 3D Flip Animatie:** De kaart moet op de Y-as in 3D draaien (`rotateY`) als er op de knop geklikt is.
@@ -112,7 +112,7 @@ Bouw je `<main>`, je `<button>`, en implementeer het "CSS Card Flip 3D effect".
 
 ### Stap 2: Data Controleren
 
-Maak in je JavaScript variabelen voor `activeGames` en `playedGames`. Check of deze in `localStorage` staan (en gebruik `JSON.parse()`). Zo niet, vul `activeGames` dan met de inhoud uit `games.js`.
+Maak in je JavaScript variabelen voor `activeGames` en `playedGames`. Check of deze in `localStorage` staan (en gebruik `JSON.parse()`). Zo niet, vul `activeGames` dan met de inhoud uit `games.ts`.
 
 ### Stap 3: De Onthulling (De "Klik")
 
