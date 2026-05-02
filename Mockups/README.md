@@ -22,7 +22,7 @@ Na de "Reveal" moet het mogelijk zijn om het spel definitief uit de collectie te
 
 ### 📋 Functionele Eisen (Wat moet de app kunnen?)
 
-1. **Games inladen:** De lijst met games staat al voor je klaar in `scripts/games.js`.
+1. **Games inladen:** De lijst met games staat al voor je klaar in `scripts/games.ts`.
 2. **Interactieve Kaart:** Een HTML element centraal in beeld dat dient als de kaart met een duidelijke voor- en achterkant.
 3. **Onthullingsknop:** Een grote knop om de animatie en de logica te starten.
 4. **De 3D Flip Animatie:** De kaart moet op de Y-as in 3D draaien (`rotateY`).
@@ -34,7 +34,7 @@ Na de "Reveal" moet het mogelijk zijn om het spel definitief uit de collectie te
 
 ### 🎨 Non-Functionele Eisen (Design & Code)
 
-1. **Bestandsstructuur:** Houd je aan de klaargezette bestandsstructuur (`index.html`, `style.css`, `main.js`).
+1. **Bestandsstructuur:** Houd je aan de klaargezette bestandsstructuur (`index.html`, `style.css`, `main.ts`).
 2. **Dark & Premium Thema:** Gebruik een `linear-gradient` achtergrond (bijv. heel donkerpaars naar zwart).
 3. **Animaties (Leermoment CSS):**
    * De kaart zélf moet heel zachtjes van boven naar beneden zweven (`@keyframes` animatie).
@@ -99,7 +99,7 @@ Je gaat leren werken met:
 * Maak in dit bestand via HTML een mooi grid (`display: grid`) op de pagina klaar.
 * Haal in je JavaScript je `.getItem('playedGames')` array op uit de local storage.
 * Loop (met bijvoorbeeld `.forEach()`) door deze spellen heen en genereer met HTML en JavaScript zogenaamde "cards" voor elk gespeeld spel en steek die in het grid (`element.innerHTML` of `document.createElement`).
-* **Tip voor afbeeldingen & details:** Op dit moment is `games.js` een array van teksten (strings). Om een afbeelding en details te tonen, zul je de items in `games.js` in de toekomst in zogenaamde *Objecten* moeten veranderen. Bijvoorbeeld: `{ titel: "Doom", img: "doom.jpg", details: "Een vette shooter uit 2016" }`. Op die manier heeft je Javascript makkelijk toegang tot alle details!
+* **Tip voor afbeeldingen & details:** Op dit moment is `games.ts` een array van teksten (strings). Om een afbeelding en details te tonen, zul je de items in `games.ts` in de toekomst in zogenaamde *Objecten* moeten veranderen. Bijvoorbeeld: `{ titel: "Doom", img: "doom.jpg", details: "Een vette shooter uit 2016" }`. Op die manier heeft je Javascript makkelijk toegang tot alle details!
 
 Veel succes, en geniet van deze ontzettend toffe CSS & JS oefening!
 
