@@ -3,6 +3,8 @@ export interface Game {
   readonly afbeelding?: string;
 }
 
+
+
 export let games: Game[] = [
     {
       name: "Ultra Street Fighter IV",

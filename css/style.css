@@ -179,11 +179,12 @@ footer>p {
     height: 100%;
     text-align: center;
     transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 5s;
 }
 
-.card:hover .card-inner {
+.draaien {
     transform: rotateY(180deg);
-    transition: transform 5s;
 }
 
 .card-face {
@@ -221,6 +222,13 @@ footer>p {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
+/*.show{
+    display:block
+}
+.hide{
+    display:none;
+}*/
 
 .card-front,
 .card-back {

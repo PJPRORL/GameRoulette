@@ -1,32 +1,24 @@
-import { Game } from './games.js'
-import { games } from './games.js'
-
+import { games } from './games.js';
 // Game Roulette Hoofdscript
-
 // 1. Initialisatie: Bekijk de localStorage en laad de spellen
 // TIP: Gebruik de variabele 'initialGames' uit games.ts als fallback!
-let initialGames: Game[] = games;
+let initialGames = games;
 console.log(initialGames);
-
 // 2. Selecteer je HTML elementen (canvas, button, result div)
-const card = document.querySelector('.card-inner')!;
-const backCard = document.querySelector('.card-back')!;
-const button = document.querySelector('#revealButton')!;
-
+const card = document.querySelector('.card-inner');
+const backCard = document.querySelector('.card-back');
+const button = document.querySelector('#revealButton');
 button.addEventListener("click", (e) => {
-    card.classList.toggle("draaien")
-    backCard.classList.toggle("draaien")
-})
-
+    card.classList.toggle("draaien");
+    backCard.classList.toggle("draaien");
+});
 // 5. Functie om een spel permanent te verwijderen
 /*function removeGameAndSave(gameName) {
     // Jouw array en localStorage update code hier...
 
 }*/
-
 // Event listeners toevoegen
 // (bijv. click event op je spin button)
-
 /*import {Game} from './games'
 import {games} from './games'
 
@@ -56,6 +48,5 @@ button.addEventListener("click", (e) =>{
     // Jouw array en localStorage update code hier...
 
 }*/
-
 // Event listeners toevoegen
 // (bijv. click event op je spin button)*/
