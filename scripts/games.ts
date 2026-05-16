@@ -6,7 +6,7 @@ export interface Game {
 // fetch commando voor het ophalen van de games.
 async function gamesOphalen(): Promise<Game[]> {
   try {
-    const response = await fetch(`/Data/games.json`);
+    const response = await fetch(`./Data/games.json`);
 
     if (!response.ok) {
       throw new Error(`Kon lokaal bestand niet laden! Status: ${response.status}`);
