@@ -19,9 +19,10 @@ console.log("Initial games vanuit main.ts:", inladenGames);
 
 button.addEventListener("click", function () {
 
-    let randomAfbeelding = inladenGames[Math.floor(Math.random() * inladenGames.length)];
-    console.log(randomAfbeelding);
+    const randomAfbeelding = inladenGames[Math.floor(Math.random() * inladenGames.length)];
 
-    image.src = randomAfbeelding.afbeelding;
-    card.classList.toggle("draaien")
+    if (randomAfbeelding && randomAfbeelding.afbeelding) {
+        image.src = randomAfbeelding.afbeelding;
+        card.classList.toggle("draaien");
+    }
 })
