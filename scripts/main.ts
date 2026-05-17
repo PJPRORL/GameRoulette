@@ -25,4 +25,6 @@ button.addEventListener("click", function () {
         image.src = randomAfbeelding.afbeelding;
         card.classList.toggle("draaien");
     }
+
+    console.log("De afbeelding is:", image.src);
 })
